@@ -169,6 +169,8 @@ total = merged.merge(old, on = 'industry',how = 'inner')
 total = total.merge(tos_unsan[['industry','soc_tos_unsan','tos_unsan_merch']], on = 'industry', how = 'inner')
 total.to_csv('soc_v5.csv')
 
+#test changes
+print(total)
 # unsanitized
 
 
